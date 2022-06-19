@@ -6,7 +6,7 @@
   "scripts": {
     "start": "cd dist && node ../../server/index.js 8888",
     "serve": "npm run start",
-    "build": "webpack --mode=production --progress --colors",
+    "build": "webpack --mode=production --progress --colors && cp -r ./dist/* ./docs",
     "dev": "webpack-dev-server --config webpack.dev.js --mode=development --progress --colors"
   },
   "author": "moshang",
