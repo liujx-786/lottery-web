@@ -68,7 +68,7 @@ a {
 .element {
   width: 12vh;
   height: 16vh;
-  box-shadow: 0 0 12px rgba(249, 192, 94);
+  /* box-shadow: 0 0 12px rgb(141, 249, 94); */
   /* border: 1px solid rgba(249, 192, 94); */
   text-align: center;
   cursor: default;
@@ -96,7 +96,7 @@ a {
   right: 0;
   font-size: 2.7vh;
   font-weight: bold;
-  color: #f9c05e;
+  color: #ffffff;
   text-shadow: 0 0 .2vh rgba(249, 192, 94, 0.95);
 }
 
@@ -183,7 +183,7 @@ video {
 .highlight .name,
 .highlight .details {
   /* color: rgba(255, 255, 255, 0.85); */
-  color: #c82121
+  color: #FA77D7
 
 }
 
@@ -525,7 +525,7 @@ video {
   right: 0;
   top: 10vh;
   bottom: 1vh;
-  width: 24vh;
+  width: 27vh;
   z-index: 2;
 }
 
@@ -537,7 +537,7 @@ video {
   box-sizing: border-box;
   font-size: 14px;
   background-color: rgba(127, 255, 255, 0.25);
-  color: rgba(127, 255, 255, 0.75);
+  color: rgba(0, 21, 255, 0.75);
 }
 
 .music {

@@ -132,7 +132,7 @@ let awardList = JSON.parse(localStorage.getItem("awardList")) || {}
 
 
 //不能说的秘密
-const excludeUser = [["000005", "张无忌", "技术部"]]
+const excludeUser = []
 /**
  * @description: 不能说的秘密
  * @param {*} nowItem 当前奖品
@@ -156,7 +156,7 @@ const opacity = () => 0.3 || Math.random() * 0.7 + 0.25
 //气氛组卡片
 const atmosphereGroupCard = () => `rgba(${rgba},${opacity()})`
 //背景色
-const background = "url(https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01ef5e59c878d5a8012053f8c53ab7.jpg%401280w_1l_2o_100sh.jpg&refer=http%3A%2F%2Fimg.zcool.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1645253836&t=e6413ccc6469632cf5476f5f6067e13b)"
+const background = "url(./img/bg.jpg)"
 //背景动态壁纸模式 不用时可以设置为null或者注释
 // const bgVideo="//game.gtimg.cn/images/lol/act/a20220121lunarpass/bg.mp4"
 const width = window.innerWidth * .75
