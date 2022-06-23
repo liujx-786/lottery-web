@@ -96,17 +96,6 @@ const prizes = [
     awards: "other-BJ-BGM",//颁奖音乐
     ROTATE_TIME: 2000,
     circle: 8 * 3
-  },
-  {
-    type: 3,
-    count: 5,
-    text: "寿星贺礼",
-    title: "神秘奖品",
-    img: "./img/edifier.jpg",
-    enter: "other-lottery",//抽奖进行时音乐
-    awards: "other-BJ-BGM",//颁奖音乐
-    ROTATE_TIME: 10000,
-    circle: 8 * 1
   }
 
 ];
@@ -150,5 +139,5 @@ const height = window.innerHeight * .75
 /**
  * 一次抽取的奖品个数与prizes对应
  */
-const EACH_COUNT = [1, 1, 2, 5];
-export default { EACH_COUNT, prizes, COMPANY, user, luckyData, leftUsers, awardList, excludeUser, atmosphereGroupCard, background, setSecret, width, height,bgVideo }
+const EACH_COUNT = [1, 1, 2];
+export default { EACH_COUNT, prizes, COMPANY, user, luckyData, leftUsers, awardList, excludeUser, atmosphereGroupCard, background, setSecret, width, height, bgVideo }
