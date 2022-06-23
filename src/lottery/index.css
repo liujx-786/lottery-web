@@ -68,7 +68,7 @@ a {
 .element {
   width: 12vh;
   height: 16vh;
-  /* box-shadow: 0 0 12px rgb(141, 249, 94); */
+  box-shadow: 0 0 12px rgba(249, 192, 94);
   /* border: 1px solid rgba(249, 192, 94); */
   text-align: center;
   cursor: default;
@@ -97,7 +97,7 @@ a {
   font-size: 2.7vh;
   font-weight: bold;
   color: #ffffff;
-  text-shadow: 0 0 .2vh rgba(249, 192, 94, 0.95);
+  text-shadow: 0 0 .3vh rgba(249, 192, 94, 0.95);
 }
 
 .element .details {
