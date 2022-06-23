@@ -832,14 +832,7 @@ function lottery() {
       luckyData = basicData.luckyUsers[currentPrize.type],
       leftCount = basicData.leftUsers.length,
       leftPrizeCount = currentPrize.count - (luckyData ? luckyData.length : 0);
-    let cloneLeftUsers = [];
-    if(currentPrize.type === 3) {
-      cloneLeftUsers = JSON.parse(JSON.stringify(basicData.leftUsers.filter(human => human[2] === true)));
-    }
-    else {
-      cloneLeftUsers = JSON.parse(JSON.stringify(basicData.leftUsers.filter((human) => human[2] !== true)));
-    }
-    leftCount = cloneLeftUsers.length;
+    const cloneLeftUsers = JSON.parse(JSON.stringify(basicData.leftUsers))
     if (leftCount === 0) {
       addQipao("人员已抽完，现在重新设置所有人员可以进行二次抽奖！");
       basicData.leftUsers = basicData.users;
